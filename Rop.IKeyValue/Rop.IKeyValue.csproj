@@ -8,7 +8,7 @@
 	  <PackageTags>helper-classes;extensions;keys</PackageTags>
 	  <Description>Group of interfaces and helpers to work with classes with a key property</Description>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	  <Version>1.0.1</Version>
+	  <Version>1.0.2</Version>
 	  <Authors>Ramon Ordiales Plaza</Authors>
 	  <Company>Ramon Ordiales Plaza</Company>
 	  <Copyright>2022 Ramon Ordiales</Copyright>

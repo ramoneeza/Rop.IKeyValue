@@ -30,7 +30,7 @@
     /// <summary>
     /// Interface for classes with a int key and a main value property
     /// </summary>
-    public interface IIntKeyValue : IIntKey,IValue
+    public interface IIntKeyValue : IIntKey,IKeyValue
     {
     }
 }
