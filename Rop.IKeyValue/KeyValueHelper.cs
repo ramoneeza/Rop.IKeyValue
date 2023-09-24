@@ -83,5 +83,8 @@ namespace Rop.Helper
         /// Compares for equality two IIntKey classes to same key
         /// </summary>
         public static bool EqualsKey(this IIntKey a, IIntKey b) => a.GetKey().Equals(b.GetKey());
+
+        public static bool EqualsKey(this IKey a, string b) => string.Equals(a.GetKey(), b, StringComparison.OrdinalIgnoreCase);
+        public static bool EqualsKey(this IIntKey a, int b) => a.GetIntKey()==b;
     }
 }
